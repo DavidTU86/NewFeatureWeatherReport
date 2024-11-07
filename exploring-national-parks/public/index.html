@@ -10,11 +10,12 @@
     <div id="root"></div>
     <h1>Weather Data on Button Click</h1>
     <button onclick="fetchWeatherData()">Fetch Weather Data</button>
+    <button onclick="window.open()"
     <div id="weatherResult"></div>
   
     <script>
       function fetchWeatherData() {
-        const apiURL = 'https://api.openweathermap.org/data/3.0/onecall?lat=39.952583&lon=-75.165222&date=2024-10-14&appid=3a19beefb65f5b39088275462e8a408c&units=imperial';
+        const apiURL = 
         
         fetch(apiURL)
           .then(response => {
